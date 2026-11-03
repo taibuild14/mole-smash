@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOLE SMASH!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="game">
+    <h1>MOLE SMASH!</h1>
+    <p class="subtitle">★ RETRO ARCADE ★</p>
+
+    <section class="scoreboard">
+      <div>SCORE <span id="score">0000</span></div>
+      <div>TIME <span id="time">30</span></div>
+      <div>BEST <span id="best">0000</span></div>
+    </section>
+
+    <p id="message">READY? PRESS START!</p>
+
+    <section class="grid" id="grid">
+      <button class="hole" data-index="0"></button>
+      <button class="hole" data-index="1"></button>
+      <button class="hole" data-index="2"></button>
+      <button class="hole" data-index="3"></button>
+      <button class="hole" data-index="4"></button>
+      <button class="hole" data-index="5"></button>
+      <button class="hole" data-index="6"></button>
+      <button class="hole" data-index="7"></button>
+      <button class="hole" data-index="8"></button>
+    </section>
+
+    <button id="start">▶ START GAME</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
